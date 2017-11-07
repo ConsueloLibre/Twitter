@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans:600i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <h1>Twitter</h1>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </header>
+      <section id="back">
+        <section class="center">
+          <div class="conteiner">
+            <div class="target">
+              <img src="assets/img/she.jpg" alt="">
+            </div>
+            <div class="area">
+              <textarea class="txt" id="comment" cols="30" rows="10" placeholder="comentario..." onkeyup="disab(this)"></textarea>
+              <button type="button" id="btn" onclick="add()"><i class="fa fa-twitter" aria-hidden="true"></i> TWIT</button>
+              <div class="rayita"></div>
+              <p id="conteo">140</p>
+
+            </div>
+          </div>
+          <div id="cont"></div> <!-- este es el padre para DOM-->
+        </section>
+        <footer>
+          copyright 2017
+        </footer>
+      </section>
+
+    </div>
+
+    <script src="https://use.fontawesome.com/7873633050.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
